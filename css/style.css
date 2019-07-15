@@ -432,12 +432,12 @@ article-1
   width: 70vw;
   max-width: 350px;
 
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .article-1-img:hover {
   transform: scale(1.1);
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 /**********
@@ -467,12 +467,12 @@ article-2
   width: 50vw;
   max-width: 200px;
 
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .article-2-img:hover {
   transform: scale(1.1);
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 /**********
@@ -504,12 +504,12 @@ article-3
   width: 80vw;
   max-width: 350px;
 
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .article-3-img:hover {
   transform: scale(1.1);
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 /*************
