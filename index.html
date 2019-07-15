@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta author="name" content="Matteo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio | Matteo Cordiner</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header-wrapper"> 
+    <h1 class="my-name"><span id="hi">HI</span> my name is <span id="matteo">Matteo Cordiner</span> I am a <span id="digitalDesigner">Web Designer</span>.</h1>
+    <nav class="main-navigation">
+      <ul id="navSection" class="main-nav-list">
+        <li class="main-nav-element"><a class="link-to-page" href="/projects/about.html">About</a></li>
+        <li class="main-nav-element"><a class="link-to-page" href="#work">Work</a></li>
+      </ul>
+      <a class="go-back-link" href="index.html"><img src="/image/icons/120823-solid-arrow-collection.png" alt="" height="35px"></a>
+    </nav>
+  </header>
+
+  <!-- <section class="about-me">
+    <div class="about-me-wrapper">
+      <h2 class="about-me-h">About Me</h2>
+      <p></p>
+    </div>
+  </section> -->
+  
+  <section class="skills-section">
+    <div class="skills-wrapper">
+      <h2 class="skills-title">I can</h2>
+      <ul class="skills-list">
+        <li class="skill skill-1"><img class="skill-image" src="image/icons/skills/uxui.icon.png" alt="uxui">Ux/Ui Design</li>
+        <li class="skill skill-2"><img class="skill-image" src="image/icons/skills/html.icon.png" alt="html">Html</li>
+        <li class="skill skill-3"><img class="skill-image" src="image/icons/skills/css-icon.png" alt="css">Css</li>
+        <li class="skill skill-4"><img class="skill-image" src="image/icons/skills/javaScript-icon.png" alt="javaScript">JavaScript</li>
+      </ul>
+    </div>
+  </section>
+
+  <main id="work" class="main background-page">
+    <h2 class="project-title">My projects</h2>
+    <div class="main-wrapper">
+      <article class="wrapper-item-1">
+        <h3 class="article-h article-1-h">Fendi Customer Service</h3>
+        <!-- <p class="article-p">Re-Design of the Fendi customer service called MTO, done in a team where we analized behaviour and feelings of Fendi customers creating an interactive and smart service. </p> -->
+        <a href="projects/Fendi.html"><img class="article-1-img" src="image/Fendi/First-page.png" alt="Fendi_splash_page"></a>
+      </article>
+      <article class="wrapper-item-2">
+        <h3 class="article-h">The Fork</h3>
+        <!-- <p class="article-p">Creating a new application for the company The Fork, adding new features and improving the old ones.</p> -->
+        <a href="/projects/the-fork.html"><img class="article-2-img" src="image/The Fork/Main_the_fork.png" alt="Main_the_fork"></a>
+      </article>
+      <article class="wrapper-item-3">
+        <h3 class="article-h">PinGo | Travel planning Website</h3>
+        <!-- <p class="article-p">A project of SEO Workshop, designing a SEO analisys and website for bussines of sharing veichle.</p> -->
+        <a href="http://pingo.altervista.org/"><img class="article-3-img" src="image/PinGo/Homepage.png" alt="Homepage"></a>
+      </article>
+    </div>  
+    <section class="other-projects">
+      <h2 class="other-projects-h">Other personal projects</h2>
+      <article class="wrapper-item-4">
+        <h3 class="article-h">Svolta</h3>
+        <!-- <p class="article-p">Svolta is my thesis project, a E-Free FLoating Bike Sharing for the city of Rome. </p> -->
+        <a onclick="workInProgress()" href="#"><img class="article-4-img" src="image/Svolta/render 1.png" alt="render"></a>
+      </article> 
+      <article class="wrapper-item-5">
+        <h3 class="article-h">Videomaking</h3>
+        <!-- <p class="article-p">Here you can find some videos that i made by myself, during my last two years in Rome. I worked as freelance videomaker for young singer.</p> -->
+        <a onclick="workInProgress()" href="#"><img class="article-5-img" src="image/Videomaking/Splash_page.JPG" alt="Splash_page"></a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer-wrapper">
+    <p class="footer-p">Copyright &copy; Matteo Cordiner, 2019</p>
+    <p class="email-p"><a class="email-link" href="mailto:matteo.cordiner@gmail.com">matteo.cordiner@gmail.com</a></p>
+    <ul class="footer-nav">
+      <li class="footer-nav-element"><a href=""><img class="social-img" src="image/icons/facebook_icon.png" alt="facebook_icon"></a></li>
+      <li class="footer-nav-element"><a href=""><img class="social-img" src="image/icons/instagram_icon.png" alt="instagram_icon"></a></li>
+      <li class="footer-nav-element"><a href=""><img class="social-img" src="image/icons/linkedin_icon.png" alt="linkedin_icon"></a></li>
+    </ul>
+  </footer>
+
+
+  <script src="TweenMax.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+  <script src="script/script.js"></script>
+
+</body>
+</html>
