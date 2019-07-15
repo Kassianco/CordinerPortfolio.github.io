@@ -118,7 +118,7 @@ body {
 }
 
 .beginning-container {
-  margin-top: 10em;
+  margin-top: 20em;
 
   display: flex;
   justify-content: center;
@@ -439,7 +439,7 @@ body {
   }
 
   .h1-image {
-    width: 350px;
+    width: 280px;
 
     margin-left: 300px;
   }
@@ -449,7 +449,7 @@ body {
   }
     
   .beginning-img {
-    width: 400px;
+    width: 280px;
   }
 
   .selectors-container {
@@ -459,7 +459,7 @@ body {
   .selectors-container div img {
     margin: 50px 80px;
 
-    width: 25em;
+    width: 18em;
   }
 
   .material-img {
