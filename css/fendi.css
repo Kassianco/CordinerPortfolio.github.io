@@ -58,6 +58,8 @@ body {
   flex-flow: column;
 
   height: 70vh;
+
+  overflow: hidden;
 }
 
 .h1-image {
@@ -71,6 +73,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: column;
+
+  overflow: hidden;
 
   text-align: center;
 }

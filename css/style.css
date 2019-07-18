@@ -148,6 +148,8 @@ HEADER
   position: fixed;
   bottom: 25px;
   right: 15px;
+
+  z-index: 99;
 }
 
 .shape-position {
