@@ -4,7 +4,7 @@ var title = document.getElementById('titleFendi')
 var subtitle = document.getElementById('subtitleFendi')
 
 //Portfolio Animation
-TweenMax.to('.header-wrapper h1', 1,{x: 0, opacity: 1})
+TweenMax.to('.header-wrapper h1', 1,{x: 0, delay:.4, opacity: 1})
 
 
 //Work in Progres Pages
