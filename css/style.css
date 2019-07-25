@@ -74,7 +74,7 @@ HEADER
 
 #digitalDesigner {
   font-size: 50px;
-  font-family: Gameplay;
+  font-family: Gameplay, sans-serif;
   text-decoration: underline;
   /* color: #24E01B; */
   animation: type-color 10s linear infinite;
